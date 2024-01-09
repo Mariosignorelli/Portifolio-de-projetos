@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    
+}
+@import "./parts/colors";
+@import "./parts/layout";
+body{
+    background-image: url(./assets/imgs/mario-font4.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $white-normal;
+}
+li{
+    list-style: none;
+}

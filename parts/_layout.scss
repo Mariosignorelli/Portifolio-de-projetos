@@ -1,0 +1,27 @@
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    h1{
+        color: $white-normal;
+    }
+   
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    font-size: 25px;
+
+}
+.logo img{
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+ 
+}

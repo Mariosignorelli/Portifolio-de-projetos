@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+/* Brands Colors*/
+/* neutral colors*/
+/*Auxiliary colors*/
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+.top h1 {
+  color: #ffffff;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  font-size: 25px;
+}
+
+.logo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+}
+
+body {
+  background-image: url(./assets/imgs/mario-font4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */
