@@ -22,11 +22,21 @@
 @media screen and (max-width:768px){
     .top{
         flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    }
         .list{
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 15px;
+            margin-top: 85px;
+        }
+        .corpo{
+            margin-left: 65px;
         }
     }
-}
+
 .logo img{
     width: 250px;
     height:250px;
@@ -105,3 +115,8 @@ li a:hover, .dropdown:hover .dropbtn {
     }
 }
 
+.pg-sobre{
+    display: flex;
+    justify-content: space-around;
+    color: brown;
+}

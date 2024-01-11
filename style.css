@@ -32,9 +32,18 @@
 @media screen and (max-width: 768px) {
   .top {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .top .list {
+  .list {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 85px;
+  }
+  .corpo {
+    margin-left: 65px;
   }
 }
 .logo img {
@@ -116,6 +125,12 @@ li.dropdown {
   color: #ffffff;
   margin-left: 200px;
   margin-bottom: 15px;
+}
+
+.pg-sobre {
+  display: flex;
+  justify-content: space-around;
+  color: brown;
 }
 
 body {
