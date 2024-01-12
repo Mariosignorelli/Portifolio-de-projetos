@@ -7,25 +7,29 @@
   right: 80px;
 }
 @media screen and (max-width:768px){
+
     .l-sobre{
       
         position: absolute;
-        left: -5px;
+        left: 85px;
+        
     }
     .f-sobre img{
-       margin: 100px 75px;
+       margin: 110px 130px;
       
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
     h1{
-        font-size: 18px;
+        font-size: 28px;
         position: absolute;
-        left: -120px;
-        top: 300px;
+        left: -100px;
+        top: 350px;
     }
     .p-sobre{
        margin-left: 25px;
        text-align: center;
+       margin: auto;
+       width: 90vw;
     }
 }
